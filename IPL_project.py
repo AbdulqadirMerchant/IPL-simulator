@@ -143,7 +143,7 @@ class IPL:
         print("Match Statistics:")
         print(f"Batsmen({self.batting_team}):")
         for batsman, scores in self.batsmen.items():
-            #If the number of balls faced by the batsmen are zero, then score won't be displayed
+            #If the number of balls faced by the batsmen are zero, then score won't be printed
             if scores[1] != 0:
                 print(f"{batsman} scored {scores[0]} runs in {scores[1]} balls")
         print()
